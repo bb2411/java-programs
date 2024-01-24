@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Greatest_of_three",
+            "request": "launch",
+            "mainClass": "Greatest_of_three"
+        },
+        {
+            "type": "java",
             "name": "gettsett",
             "request": "launch",
             "mainClass": "gettsett",
