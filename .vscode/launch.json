@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "reversenumber",
+            "request": "launch",
+            "mainClass": "reversenumber",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Greatest_of_three",
             "request": "launch",
             "mainClass": "Greatest_of_three"
