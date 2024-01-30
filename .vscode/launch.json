@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Useofthis",
+            "request": "launch",
+            "mainClass": "Useofthis",
+            "projectName": "java_3cc8abc9"
+        },
+        {
+            "type": "java",
+            "name": "Rectangle",
+            "request": "launch",
+            "mainClass": "Rectangle",
+            "projectName": "java_3cc8abc9"
+        },
+        {
+            "type": "java",
+            "name": "Student",
+            "request": "launch",
+            "mainClass": "Student",
+            "projectName": "java_3cc8abc9"
+        },
+        {
+            "type": "java",
+            "name": "prime",
+            "request": "launch",
+            "mainClass": "prime",
+            "projectName": "java_3cc8abc9"
+        },
+        {
+            "type": "java",
+            "name": "matrics",
+            "request": "launch",
+            "mainClass": "matrics",
+            "projectName": "java_3cc8abc9"
+        },
+        {
+            "type": "java",
             "name": "reversenumber",
             "request": "launch",
             "mainClass": "reversenumber",
