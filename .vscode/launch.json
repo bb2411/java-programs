@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "constover",
+            "request": "launch",
+            "mainClass": "constover",
+            "projectName": "java_3cc8abc9"
+        },
+        {
+            "type": "java",
+            "name": "Shape",
+            "request": "launch",
+            "mainClass": "Shape",
+            "projectName": "java_3cc8abc9"
+        },
+        {
+            "type": "java",
+            "name": "Static",
+            "request": "launch",
+            "mainClass": "Static",
+            "projectName": "java_3cc8abc9"
+        },
+        {
+            "type": "java",
             "name": "Useofthis",
             "request": "launch",
             "mainClass": "Useofthis",
