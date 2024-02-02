@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "stringfun",
+            "request": "launch",
+            "mainClass": "stringfun",
+            "projectName": "java_3cc8abc9"
+        },
+        {
+            "type": "java",
             "name": "constover",
             "request": "launch",
             "mainClass": "constover",
