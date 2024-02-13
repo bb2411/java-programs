@@ -1,19 +1,24 @@
+import java.util.Scanner;
+
 public class prime {
     public static void main(String[] args) {
-        int a = 13;
-        int i = 2;
+        Scanner in = new Scanner(System.in);
+        System.out.print("enter n number :");
+        int a = in.nextInt();
         int flag = 0;
-        while (i < a) {
-            if (a % i == 0) {
-                System.out.println(i);
-                flag = 1;
+        for (int i = 2; i <= a; i++) {
+            flag = 0;
+            for (int j = 2; j <= i - 1; j++) {
+                if (i % j == 0) {
+                    flag = 1;
+                }
             }
-            i++;
-        }
-        if (flag == 1) {
-            System.out.println("Not a Prime Number");
-        } else {
-            System.out.println("Prime Number");
+            if (flag == 1) {
+                continue;
+            } else {
+                System.out.println(i);
+            }
+            in.close();
         }
     }
 }

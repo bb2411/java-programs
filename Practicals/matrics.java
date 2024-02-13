@@ -1,15 +1,24 @@
+import java.util.Scanner;
+
 public class matrics {
     public static void main(String[] args) {
-        int[][] a = {
-                { 1, 2, 3 },
-                { 4, 5, 6 },
-                { 7, 8, 9 }
-        };
-        int[][] b = {
-                { 1, 2, 3 },
-                { 4, 5, 6 },
-                { 7, 8, 9 }
-        };
+        Scanner in = new Scanner(System.in);
+        int[][] a = new int[3][3];
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.printf(" Enter a[%d][%d] :", i, j);
+                a[i][j] = in.nextInt();
+            }
+            System.out.println();
+        }
+        int[][] b = new int[3][3];
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.printf(" Enter b[%d][%d] :", i, j);
+                b[i][j] = in.nextInt();
+            }
+            System.out.println();
+        }
         int[][] c = new int[3][3];
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
@@ -22,5 +31,6 @@ public class matrics {
             }
             System.out.println();
         }
+        in.close();
     }
 }

@@ -22,5 +22,6 @@ public class Greatest_of_three {
                 System.out.println("A is greater" + a);
             }
         }
+        input.close();
     }
 }
