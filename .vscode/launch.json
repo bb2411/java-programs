@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "helloworld",
+            "request": "launch",
+            "mainClass": "helloworld",
+            "projectName": "java_3cc8abc9"
+        },
+        {
+            "type": "java",
+            "name": "Name",
+            "request": "launch",
+            "mainClass": "Name",
+            "projectName": "java_3cc8abc9"
+        },
+        {
+            "type": "java",
             "name": "stringfun",
             "request": "launch",
             "mainClass": "stringfun",

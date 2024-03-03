@@ -15,6 +15,5 @@ public class reversenumber {
         }
         System.out.println("Orignal value :" + a);
         System.out.println("reversed value :" + reverse);
-        in.close();
     }
 }

@@ -1,8 +1,8 @@
 public class Useofthis {
     int a;
 
-    public int getthisvalue(int x) {
-        int sum = this.a + x;
+    public int getthisvalue(int a) {
+        int sum = a + a;
         return sum;
     }
 
