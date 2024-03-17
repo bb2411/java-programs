@@ -6,9 +6,10 @@ public class stringfun {
         String[] spited = name.split("");
         System.out.println("Array of string containing each elements :");
         for (String string : spited) {
-            System.out.println(string);
+            System.out.print(" " + string + " ");
         }
-        System.out.println("String Format :" + String.format(name));
+        System.out.println();
+        System.out.println(String.format("string is %s", name));
         System.out.println("1 index of string :" + name.charAt(1));
         System.out.println("AV is in String or not :" + name.contains("av"));
     }

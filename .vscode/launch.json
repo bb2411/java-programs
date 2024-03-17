@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Maxnum",
+            "request": "launch",
+            "mainClass": "practice.Maxnum",
+            "projectName": "java_3cc8abc9"
+        },
+        {
+            "type": "java",
+            "name": "maxnum",
+            "request": "launch",
+            "mainClass": "practice.maxnum",
+            "projectName": "java_3cc8abc9"
+        },
+        {
+            "type": "java",
             "name": "helloworld",
             "request": "launch",
             "mainClass": "helloworld",
